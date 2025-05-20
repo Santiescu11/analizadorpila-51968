@@ -1,0 +1,17 @@
+pila Calculadora {
+    # Inicialización con valores
+    crear([5, 10, 15])!
+    
+    # Operaciones básicas
+    empujar(20)!      # Añadir valor
+    imprimir()!       # Mostrar estado actual
+    sacar()!          # Eliminar último valor
+    
+    pila Resultados {
+        crear([])!
+        empujar(100)!
+    }
+    
+    # Operación final
+    mirar()!          # Ver tope de la pila
+}
